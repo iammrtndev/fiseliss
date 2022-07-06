@@ -8,8 +8,10 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
-		split: true,
+		adapter: adapter({
+			edge: false,
+			split: true
+		}),
 	}
 };
 
