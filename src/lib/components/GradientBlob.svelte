@@ -14,8 +14,8 @@
 	onMount(() => {
 		new DrawBlob({
 			canvas,
-			speed: 90,
-			scramble: 0.12,
+			speed: 50,
+			scramble: 0.13,
 			color,
 			...blob,
 		})
